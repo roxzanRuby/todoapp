@@ -34,6 +34,10 @@ class TodosController < ApplicationController
     end
   end
 
+  def index
+    @todos = Todo.all #instance variable
+  end
+
   private #anything you put under this is only for this controller
     
     def todo_params #this is white listing - what we allowing our application to recieve from

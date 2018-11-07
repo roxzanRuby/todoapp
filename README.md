@@ -36,6 +36,10 @@ submit to UPDATE - hits the database with PATCH or gives error
 
 (4) INDEX
 list all todos
+- route path will be > todos GET    /todos(.:format)  todos#index
+- create a template
+- def in controller -add instance variable
+- 
 
 (5) DELETE
 destroys a todo
