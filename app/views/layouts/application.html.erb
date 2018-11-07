@@ -10,11 +10,10 @@
   </head>
 
   <body>
-    <% flash.each do |name, msg| %>
-      <ul>
-        <li><%= msg %></li>
-      </ul>
-    <% end %>
+    
+    <%= render "layouts/messages" %> 
+    <!--calling in the messages file-->
+    
     <%= yield %>
     <!--
     This is where all the html is defined for you, in home, about, help

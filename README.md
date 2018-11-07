@@ -48,3 +48,12 @@ destroys a todo
 - route path will be > todos DELETE    /todos/:id(.:format)  todos#destroy
 - link to delete 
     <td><%= link_to "Delete", todo_path(todo), method: :delete, data: {confirm: "Are you sure?"} %></td>
+
+
+
+Clean up the application.html.erb file
+- create a partial, and reference the code taken out of the app.html.erb file
+- >layout >new file called _messages
+
+
+Refacter code when it starts to get redundent
