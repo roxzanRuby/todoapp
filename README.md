@@ -4,17 +4,7 @@
 - resources :todos
 
 VERSION CONTROL!! - git 
-- Git is a version control systme that lets you save your work among other things
-- You can push your code and save it to onlind repositories
-- You can push your cond to production hostinf services like heroku
-- You can collaborate with others since they can grab code and cline it etc..
-
-1 - set up git in terminal 
--   git config --global user.name "Rox Ron"
--   git config --global user.email "roxzanr7@gmail.com"
--   
-2 - initialize a git repository
-
+- see saved file github and git set up in documents
 
 
 FOR A NEW TODO:
@@ -42,6 +32,7 @@ displays an individual todo
 
 (3) EDIT - form to edit an existing todo
 submit to UPDATE - hits the database with PATCH or gives error
+- route path will be > edit_todo GET    /todos/:id/edit(.:format)   
 
 (4) INDEX
 list all todos
