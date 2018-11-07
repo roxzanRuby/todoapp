@@ -1,5 +1,7 @@
 # README - Action from UI
 
+!!!!!!CRUD for the UI - which is the browser !!!!!!!!!
+
 - routes
 - resources :todos
 
@@ -39,7 +41,10 @@ list all todos
 - route path will be > todos GET    /todos(.:format)  todos#index
 - create a template
 - def in controller -add instance variable
-- 
+- added links in edit/index/show.html,erb
 
 (5) DELETE
 destroys a todo
+- route path will be > todos DELETE    /todos/:id(.:format)  todos#destroy
+- link to delete 
+    <td><%= link_to "Delete", todo_path(todo), method: :delete, data: {confirm: "Are you sure?"} %></td>
